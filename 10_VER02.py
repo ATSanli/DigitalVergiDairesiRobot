@@ -11,6 +11,9 @@ from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 from ttkthemes import ThemedTk
 
+
+
+
 loaded_label = None
 credentials_list = []
 driver = None  # Store driver globally to access it across functions
@@ -148,5 +151,6 @@ borcu_yoktur_button.grid(row=6, column=0, columnspan=2, padx=10, pady=10)
 
 # Load initial credentials if available
 load_credentials()
+
 
 root.mainloop()
